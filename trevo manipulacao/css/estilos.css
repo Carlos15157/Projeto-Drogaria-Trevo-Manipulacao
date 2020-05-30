@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* icone na navbar */
+body nav a img {
+  width: 60px;
+  height: 60px;
+}
+
+header h1 {
+  opacity: 0;
+}
+
+body .nav-item {
+  padding-right: 10px;
+}
+
+footer {
+  background-color: rgba(145, 145, 145, 0.473);
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  padding: 6px;
+}
+
+#contato {
+  margin-top: 15px;
+}
+
+/* Carousel do index */
+#carousel {
+  margin: auto;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  /* background-color: black; */
+  box-shadow: 10px 1px 10px 10px rgba(145, 145, 145, 0.473);
+}
+
+#img90 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#img90 img {
+  width: 80%;
+  height: auto ;
+}
+
+#texto {
+  text-align: justify;
+  margin: 40px;
+}
+
+#titulo {
+  font-size: 10pt;
+  color: black;
+  font-style: uppercase;
+}
+#card {
+  margin: 50px 10px 10px 50px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+div p {
+  text-align: justify;
+}
+
+#card img {
+  width: 200px;
+  height: 150px;
+}
+
+#valor {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#promocao {
+  text-decoration: line-through;
+  color: rgb(100, 100, 100);
+}
+
+h2 {
+  /* font-family: "Libre Baskerville"; */
+
+  text-align: center;
+}
+
+#ozempic {
+  padding: 20px;
+}
+
+#lista{
+  width: 400px;
+  margin-left: 50px;
+
+}
+
+#card2{
+  
+  margin-right: 200px;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+#list-tab{
+  padding-bottom: 20px;
+}
+
+#lojas{
+  display: inline-block;
+
+
+}
+#loja{
+  float: right;
+margin: 100px;
+  box-shadow: 1px 1px 40px silver;
+}
