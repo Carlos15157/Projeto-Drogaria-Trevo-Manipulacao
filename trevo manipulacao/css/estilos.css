@@ -38,27 +38,7 @@ body .nav-link {
 
 }
 
-
-h1 {
-  /* font-family: "Libre Baskerville"; */
-
-  text-align: center;
-  font-size: pt;
-  color: #4caf50;
-  
-}
-
-
- /*imagem vitrini */
-#img90 img {
-  text-align: center;
-  margin-bottom: 20px;
-  width: 100%;
-  height: auto ;
-  box-shadow: 0px 1px 10px 10px#dcedc8;
-  
-}
-/* O conteúdo do texto está localizado a baixo da foto da vitrini*/
+/* O conteúdo do texto está localizado a baixo do carousel*/
 
 #texto {
   text-align: justify;
@@ -66,7 +46,15 @@ h1 {
   
 }
 
-/* texto h1 Ofertas Especiais para você */
+
+#carousel2 {
+  /* font-family: "Libre Baskerville"; */
+
+  text-align: center;
+  font-size: 30px;
+  
+
+}
 
 
 /* card contendo a foto  das cápsulas */
