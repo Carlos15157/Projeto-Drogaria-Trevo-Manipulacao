@@ -56,6 +56,16 @@ body .nav-link {
 
 }
 
+#carousel2 .p {
+  /* font-family: "Libre Baskerville"; */
+
+  text-align: center;
+  font-size: 30px;
+  
+
+}
+
+
 
 /* card contendo a foto  das cápsulas */
 #card {
