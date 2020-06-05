@@ -15,9 +15,11 @@ body nav a img {
 body .nav-item {
   
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-style: oblique;
+  font-size: 25px;
   /*box-shadow: 0px 1px 10px 10px#dcedc8;*/
-  /*margin-left: 100px;*/
+   margin-left: 30px;
+   
 }
 
 body .nav-link {
@@ -36,37 +38,30 @@ body .nav-link {
   padding: 0px;
   box-shadow: 0px 1px 10px 10px#dcedc8;
 
+
 }
 
-
-h1 {
-  /* font-family: "Libre Baskerville"; */
-
-  text-align: center;
-  font-size: pt;
-  color: #4caf50;
-  
-}
-
-
- /*imagem vitrini */
-#img90 img {
-  text-align: center;
-  margin-bottom: 20px;
-  width: 100%;
-  height: auto ;
-  box-shadow: 0px 1px 10px 10px#dcedc8;
-  
-}
-/* O conteúdo do texto está localizado a baixo da foto da vitrini*/
+/* O conteúdo do texto está localizado a baixo do carousel*/
 
 #texto {
   text-align: justify;
   margin: 40px;
+  font-size: 25px;
+  color: #4caf50;
+  font-style: oblique;
   
 }
 
-/* texto h1 Ofertas Especiais para você */
+
+#carousel2 {
+ 
+  font-family: 'Vast Shadow', cursive;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px;
+    
+ 
+}
 
 
 /* card contendo a foto  das cápsulas */
@@ -85,7 +80,16 @@ h1 {
   
 }
 
+/* alinhamento produtos */
+#itens {
 
+  text-align: center;
 
+}
 
+#formulario{
+text-align: left;
+padding-left: 400px ;
+
+}
 
