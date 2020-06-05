@@ -15,9 +15,11 @@ body nav a img {
 body .nav-item {
   
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-style: oblique;
+  font-size: 25px;
   /*box-shadow: 0px 1px 10px 10px#dcedc8;*/
-  /*margin-left: 100px;*/
+   margin-left: 30px;
+   
 }
 
 body .nav-link {
@@ -36,6 +38,7 @@ body .nav-link {
   padding: 0px;
   box-shadow: 0px 1px 10px 10px#dcedc8;
 
+
 }
 
 /* O conteúdo do texto está localizado a baixo do carousel*/
@@ -43,6 +46,9 @@ body .nav-link {
 #texto {
   text-align: justify;
   margin: 40px;
+  font-size: 25px;
+  color: #4caf50;
+  font-style: oblique;
   
 }
 
@@ -52,19 +58,8 @@ body .nav-link {
 
   text-align: center;
   font-size: 30px;
-  
-
+ 
 }
-
-#carousel2 .p {
-  /* font-family: "Libre Baskerville"; */
-
-  text-align: center;
-  font-size: 30px;
-  
-
-}
-
 
 
 /* card contendo a foto  das cápsulas */
