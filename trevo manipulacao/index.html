@@ -7,6 +7,8 @@
     <title>Trevo Manipulação</title>
     <link rel="icon" type="image/x-icon" href="img/icone.png" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Css local -->
     <link rel="stylesheet" href="css/estilos.css" />
 
@@ -24,24 +26,26 @@
 
   <body>
     <!-- ################################# INICíO DA BARRA DE NAVEGAÇÃO ######################################## -->
-
+  <div class="container-fluid">
 
 <nav class="navbar navbar-light bg-White">
 <a class="navbar-brand" href="index.html">
-        <img src="img/trevologo SEM LOGO.png" alt="icone" />
+        <img src="img/trevo.png" alt="icone" />
+        
       </a>
-  
+   <div id="receita">
   <form class="form-inline">
     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Localizar</button>
     <a class="btn btn-outline-success" href="contato.html" role="button">Enviar receita</a>
     
   </form>
+  </div>
 </nav>
 
 <hr>
-
-    <nav class="navbar navbar-expand-lg" style="background-color: Whrite">
+ 
+    <nav class="navbar navbar-expand-lg" >
     
       <button
         class="navbar-toggler"
@@ -50,10 +54,10 @@
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
 <div class="mx-auto" style="width: 700px;">
       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <ul class="navbar-nav mr-auto">
@@ -86,30 +90,13 @@
           </li>
 </div>
 
-          <!-- ################################################## MODAL VIA BOOSTRAP  ####################################-->
-          
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-     
-    <!--   ########################################### FIM DO MODAL QRCODE ###########################-->
-        </ul>
-      </div>
       <!-- ################################################ FIM DA BARRA DE NAVEGAÇÃO ############################################# -->
 
     </nav>
 <hr>
     <!-- ############################################# INICIO CAROUSEL ############################################# -->
     
-    
+
     <div id="carousel">
       <div id="carouselhome1" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -120,7 +107,8 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/banner04.jpg" class="d-block w-100" alt="..." height="250px">
+            <img src="img/banner04.jpg" class="rounded w-100" alt="..." height="250px">
+            
           </div>
           <div class="carousel-item">
             <img  src="img/banner05.jpg" class="d-block w-100" alt="..." height="250px">
@@ -145,17 +133,22 @@
         </a>
       </div>
     </div>  
+
+  
       <!-- ############################################### FIM DO CAROUSEL############################################# -->
       <hr>
+
+
 <!--############################################# INÍCIO DO CONTEÚDO DA PÁGINA  ############################################# -->
     <main>
-      
+      <div class="container-fluid">
       
 
       <div id="texto">
 <p>
   <span>A Trevo Farmacêutica é um laboratório de manipulação com mais de 5 anos de experiência na manipulação de fórmulas magistrais alopáticas e produtos naturais.
-Nossos colaboradores possuem ampla experiência na preparação de todas as formas farmacêuticas. Buscamos aprimoramento constante para nossa equipe e contamos com um rigoroso sistema de controle de qualidade cumprindo plenamente todas as exigências da ANVISA, nossa qualidade aliada a nossa dedicação garantem a excelência em nosso produto final.</span>
+Nossos colaboradores possuem ampla experiência na preparação de todas as formas farmacêuticas. Buscamos aprimoramento constante para nossa equipe e contamos com um 
+rigoroso sistema de controle de qualidade cumprindo plenamente todas as exigências da ANVISA, nossa qualidade aliada a nossa dedicação garantem a excelência em nosso produto final.</span>
    </p>
 
 <!-- Início carousel 2 -->
@@ -207,13 +200,13 @@ Nossos colaboradores possuem ampla experiência na preparação de todas as form
 
 
 
-
+</div>
 
    
     </main>
     <!--############################################# FIM DO CONTEÚDO DA PÁGINA  ############################################# -->
 <br>
-
+</div>
 
     <footer>
       <!-- ############################################   INÍCIO DO RODAPÉ     ############################################### -->
@@ -237,7 +230,7 @@ Nossos colaboradores possuem ampla experiência na preparação de todas as form
             >
           </div>
         </div>
-      </div>
+      
 
       <!-- ######################################### FIM DO RODAPÉ  ##################################################### -->
     </footer>
@@ -265,4 +258,5 @@ Nossos colaboradores possuem ampla experiência na preparação de todas as form
       crossorigin="anonymous"
     ></script>
   </body>
+  
 </html>
