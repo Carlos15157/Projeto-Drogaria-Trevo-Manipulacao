@@ -7,43 +7,52 @@
     <title>Trevo Manipulação</title>
     <link rel="icon" type="image/x-icon" href="img/icone.png" />
 
-    <!-- Css local -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- #################################  CSS LOCAL ######################################### -->
     <link rel="stylesheet" href="css/estilos.css" />
 
-    <!-- Css via bootstrap -->
+    <!-- #################################  CSS VIA BOOTSTRAP ################################# -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Libre+Baskerville&display=swap" rel="stylesheet">
+    <!-- ################################# GOOGLE FONTS ####################################### -->
+   <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
 
   </head>
 
-  <body>
-    <!-- ################################# INICíO DA BARRA DE NAVEGAÇÃO ######################################## -->
 
- <div class="container-fluid">
-<nav class="navbar navbar-light bg-White">
+
+  <body>
+
+    <!-- ################################# INÍCIO DA BARRA DE NAVEGAÇÃO ######################################## -->
+  
+ 
+<nav class="navbar navbar-light bg-light">
 <a class="navbar-brand" href="index.html">
         <img src="img/trevo.png" alt="icone" />
-      </a>
-      
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Localizar</button>
-    <a class="btn btn-outline-success" href="contato.html" role="button">Enviar receita</a>
+
+      <div id="redes">
+            <a href="http://www.facebook.com.br" target="_blank">
+              <img src="img/face.png" />
+            </a>
     
-  </form>
-  
+            <a href="https://twitter.com" target="_blank">
+              <img src="img/twitter.png" alt="Rede social twitter" />
+            </a>
+
+                      <a href="https://www.instagram.com" target="_blank">
+              <img src="img/instagram.png" alt=" Rede social instagram" />
+            </a>
+
+          </div>
 </nav>
 
-<hr>
-
-    <nav class="navbar navbar-expand-lg" style="background-color: Whrite">
-    
+<div id="barranavegacao">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success" >
       <button
         class="navbar-toggler"
         type="button"
@@ -51,11 +60,11 @@
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-<div class="mx-auto" style="width: 700px;">
+
+<div class="mx-auto" style="width: center ;">
       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -66,50 +75,29 @@
             <a class="nav-link" href="produtos.html">Produtos</a>
           </li>
 
-         
-         
           <li class="nav-item">
             <a class="nav-link" href="promocao.html">Promoções</a>
           </li>
-
 
               <li class="nav-item">
             <a class="nav-link" href="contato.html">Contato</a>
           </li>
 
-
-
               <li class="nav-item">
             <a class="nav-link" href="localizacao.html">Localização</a>
 
-
-
           </li>
 </div>
-          <!-- ################################################## MODAL VIA BOOSTRAP  ####################################-->
-          
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-     
-    <!--   ########################################### FIM DO MODAL QRCODE ###########################-->
-        </ul>
-      </div>
-      <!-- ################################################ FIM DA BARRA DE NAVEGAÇÃO ############################################# -->
-
     </nav>
-<hr>
-    <!-- ############################################# INICIO CAROUSEL ############################################# -->
-    
-    
+    </div>
+ <!-- ################################################ FIM DA BARRA DE NAVEGAÇÃO ############################################# -->
+   
+
+
+   
+    <!-- ############################################# INÍCIO CAROUSEL ############################################# -->
+     
+
     <div id="carousel">
       <div id="carouselhome1" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -120,7 +108,8 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/banner04.jpg" class="d-block w-100" alt="..." height="250px">
+            <img src="img/banner04.jpg" class="rounded w-100" alt="..." height="250px">
+            
           </div>
           <div class="carousel-item">
             <img  src="img/banner05.jpg" class="d-block w-100" alt="..." height="250px">
@@ -146,12 +135,19 @@
       </div>
     </div>  
       <!-- ############################################### FIM DO CAROUSEL############################################# -->
-      <hr>
+   <div id="linhahorizontal">
+</br>
+</div>
 <!--############################################# INÍCIO DO CONTEÚDO DA PÁGINA  ############################################# -->
+    <div class="container-fluid">
     <main>
-      
+                <h1>
+ <p> Nossa Localização </p>
+      </h1>
+
+      </br>
  <div id="mapa">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.135806932378!2d-46.576594!3d-23.5402718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7dbec9733dac4f22!2zRXN0YcOnw6NvIFRhdHVhcMOp!5e0!3m2!1spt-BR!2sbr!4v1591311145319!5m2!1spt-BR!2sbr" width="600" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.135806932378!2d-46.576594!3d-23.5402718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7dbec9733dac4f22!2zRXN0YcOnw6NvIFRhdHVhcMOp!5e0!3m2!1spt-BR!2sbr!4v1591311145319!5m2!1spt-BR!2sbr" width="100%" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
 
@@ -160,44 +156,47 @@
 
 
    
-    </main>
-    <!--############################################# INÍCIO DO CONTEÚDO DA PÁGINA  ############################################# -->
-<br>
-  </div>
-    <footer>
+   </main>
+    <!--############################################# FIM DO CONTEÚDO DA PÁGINA  ############################################# -->
+</br>
+</div>
+
+  
       <!-- ############################################   INÍCIO DO RODAPÉ     ############################################### -->
 
+  <footer>
+ </br>
       <div id="contato">
-        <div class="card text-white" style="background-color: #4caf50">
-          <div class="card-header">
-            Venha conhecer nossos Produtos
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">
-              Horário de atendimento: De 2ª a 6ª das 8h às 20h e sábado das 8h
-              às 18h (exceto feriados).
-            </h5>
-
-            <a
-              href="mailto:contato@trevofarmaceutica.com.br"
-              target="_blank"
-              class="btn btn-danger"
-              >Fale Conosco via Email</a
-            >
-          </div>
-        </div>
+        Rua perdida, 171 - Vila dura - São Paulo - SP
+        <br />
+        
+        <a href="mailto:contato@trevofarmaceutica.com.br"
+          >contato@trevofarmaceutica.com.br</a
+        ><br />
       </div>
 
-      <!-- ######################################### FIM DO RODAPÉ  ##################################################### -->
+      <div id="redes">
+  
+        
+            <a href="https://www.whatsapp.com" target="_blank">
+              <img src="img/WhatsApp.png" alt="Rede social twitter" />
+            </a>
+          
+
+      </div>
+      </br>
     </footer>
+        
+      
+      <!-- ######################################### FIM DO RODAPÉ  ##################################################### -->
+  
 
 
 
 
 
 
-
-    <!-- Scrips Via getbootstrap  -->
+    <!-- ######################################### SCRIPT VIA GETBOOTSTRAP ################################################ -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -214,4 +213,5 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  
 </html>

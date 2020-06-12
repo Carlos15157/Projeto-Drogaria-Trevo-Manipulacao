@@ -1,37 +1,37 @@
 
-/*dimensões logo trevo */
-/* icone na navbar */
-body nav a img {
-  width: 150px;
+
+/* foto logo Trevo*/
+nav a img {
+
+text-align: left;
+width: 160px;
+height: auto;
+}
+
+/* ajuste icones rede facebook, instagram e twitter*/
+#redes a img{
+  text-align: left;
+  width: 45px;
   height: auto;
-  margin-right: 100px;
-  margin-top: 5px;
-  
+}
+
+/* Bordas barra de navegação*/
+#barranavegacao nav {
+  border-radius: 10px 10px 0px  0px;
+  padding: 4px
+
 }
 
 
+/* Texto barra de navegação */
+#barranavegacao ul li a  {
 
-/* nav bar  home,Produtos,promoções e lojas */
-body .nav-item {
-  
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: oblique;
-  font-size: 20px;
-  /*box-shadow: 0px 1px 10px 10px#dcedc8;*/
-   margin-left: 30px;
-   
-   
-   
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+font-size: 20px;
+width: 90pt;
+text-shadow: 2px 0px 0px  white;
 }
-
-
-
-body .nav-link {
-  color: #4caf50;
-  padding: 0px;
-  
-}
-
 
 
 /* carousel */
@@ -40,41 +40,70 @@ body .nav-link {
   height: auto;
   width: 100%;
   padding: 0px;
-  box-shadow: 0px 1px 10px 10px#dcedc8;
-
+  box-shadow: 0px 18px  0px #28a745;
   
 }
 
 
-/* O conteúdo do texto está localizado a baixo do carousel*/
+#linhahorizontal {
+
+  border: 0px;
+  border-top: 40px solid #4caf50;
+  
+}
+
+h1 p {
+font-size: 16pt;
+color: #4caf50;
+text-align: center;
+}
 
 #texto {
   text-align: justify;
   margin: 40px;
-  font-size: 18px;
+  font-size: 20px;
   color: #4caf50;
   font-style: oblique;
+
+}
+
+/* texto carousel2 */
+#carousel2 div p {
+ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+  text-shadow: 2px 2px 2px  rgb(140, 120, 83);
+}
+
+
+#hr2 hr {
+
+  border: 0px;
+  border-top: 1px solid #4caf50;
   
 }
 
-
-#carousel2 {
- 
-  font-family: 'Vast Shadow', cursive;
+footer {
+  background-color: #28a745;
   text-align: center;
-  font-size: 20px;
-  margin-top: 100px;
-    
- 
+  color:White;
+  font-family: "Anton";
+  padding-top: 20px;
+  font-weight: bold;
 }
-
+/* Altera os links redes sociais para o centro */
+div ul li {
+  display: inline-block;
+}
 
 /* card contendo a foto  das cápsulas */
 #card {
-  margin: 50px 10px 10px 50px;
+  margin: 5px 5px 5px 5px;
   display: inline-block;
   text-align: center;
-  box-shadow: 0px 10px 10px 10px#dcedc8;
+  box-shadow: 1px 1px 1px 1px#dcedc8;
 
 }
 
@@ -82,7 +111,9 @@ body .nav-link {
 #card img {
   width: 200px;
   height: 150px;
+  cursor: pointer;
   
+ 
 }
 
 /* alinhamento produtos */
@@ -93,21 +124,10 @@ body .nav-link {
 }
 
 #formulario{
-text-align: left;
-padding-left: 400px ;
-
+text-align: left; 
 }
 
 
 #mapa {
-
 text-align: center;
-
 }
-
-
-.container-fluid {
-  text-align: left;
-}
-
-
