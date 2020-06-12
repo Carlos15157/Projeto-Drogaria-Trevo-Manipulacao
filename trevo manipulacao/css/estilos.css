@@ -13,6 +13,11 @@ height: auto;
   text-align: left;
   width: 45px;
   height: auto;
+
+  float: left;
+    margin: 0px 10px 0px 0px;
+    
+  
 }
 
 /* Bordas barra de navegação*/
@@ -141,6 +146,7 @@ div ul li {
 
 #formulario{
 text-align: left; 
+
 
 }
 
