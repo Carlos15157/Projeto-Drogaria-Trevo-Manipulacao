@@ -1,5 +1,5 @@
 # TREVO FARMACÊUTICA
-O repositório foi criado com intuito de desenvolver um site teste em grupo.
+O repositório foi criado com intuito  desenvolver um site teste em grupo.
 
 ##  
 ### O site foi desenvolvido utilizando bootstrap, css e javascript.

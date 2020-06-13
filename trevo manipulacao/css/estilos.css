@@ -80,7 +80,10 @@ padding-bottom: 30px ;
   text-align: center;
   font-size: 25px;
   margin-top: 100px;
-  text-shadow: 2px 2px 2px  rgb(140, 120, 83);
+
+  background-color: rgba(252, 252, 252, 0.8) ;
+  border-radius:10px;
+
 }
 
 
@@ -128,6 +131,9 @@ div ul li {
 #promocao {
   text-decoration: line-through;
   color: red;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .galeria img:hover {
@@ -153,4 +159,18 @@ text-align: left;
 
 #mapa {
 text-align: center;
+}
+
+
+/* ajuste icones whatsap rodape*/
+#redesrodape a img{
+  
+  text-align: center;
+  width: 45px;
+  height: auto;
+ 
+
+    
+    
+  
 }
